@@ -111,10 +111,7 @@ with st.sidebar:
     st.subheader("Settings")
     st.write("Connect to database and start chatting.")
 
-    # st.text_input("Server/Host",value="DT-SN001\SQLEXPRESS",key="Host")
-    # st.text_input("User", value="sa",key="User")
-    # st.text_input("Password",type="password", value="Sonar@2152",key="Password")
-    # st.text_input("Database", value="equity",key="Database")
+
 
     st.text_input("Server/Host", value="alpha\SQLEXPRESS", key="Host")
     st.text_input("User", value="uid", key="User")
